@@ -19,6 +19,7 @@ public class PersonController {
 	public String getPerson() {
 		PersonDTO personDTO = new PersonDTO();
 		return personDTO.toString();
+			
 	}
 	
 	
