@@ -11,4 +11,4 @@ addons:
     token:
       secure: "3277a5d8b47e87c2a9480090832ff61697ab1880"
 script:
-- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=younessFathi_crafts
+- mvn -B clean verify sonar:sonar -Dsonar.login=3277a5d8b47e87c2a9480090832ff61697ab1880 -Dsonar.projectKey=younessFathi_crafts -Dsonar.organization=younessfathi
